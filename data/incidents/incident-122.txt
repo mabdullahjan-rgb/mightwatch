@@ -1,0 +1,6 @@
+INCIDENT #122
+
+Service: checkout-service
+Symptoms: Database connection timeouts, connection pool exhaustion, HTTP 500 errors.
+Root cause: Incorrect database connection pool configuration introduced during deployment.
+Resolution: Rolled back the deployment. Service recovered immediately.

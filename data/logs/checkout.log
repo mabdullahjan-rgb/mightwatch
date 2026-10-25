@@ -1,0 +1,8 @@
+14:27:51 checkout-service INFO request completed status=200 latency=184ms
+14:28:03 checkout-service INFO deployment detected version=v2.8.1
+14:31:47 checkout-service WARN database connection wait_time=1800ms
+14:32:01 checkout-service ERROR database connection timeout
+14:32:04 checkout-service ERROR connection pool exhausted active=100 max=100
+14:32:07 checkout-service ERROR POST /checkout status=500
+14:32:12 checkout-service ERROR POST /checkout status=500
+14:32:18 checkout-service ERROR database connection timeout

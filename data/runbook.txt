@@ -1,0 +1,7 @@
+CHECKOUT SERVICE INCIDENT RUNBOOK
+
+1. Inspect application logs for database errors.
+2. Check for recent deployments.
+3. Search previous incidents for matching symptoms.
+4. If failures began immediately after a deployment and symptoms match a known deployment regression, recommend rollback.
+5. Production changes require engineer approval. Never execute a rollback automatically.
